@@ -1,4 +1,4 @@
-update=sáb 02 nov 2019 16:31:07 -03
+update=sáb 02 nov 2019 22:04:49 -03
 version=1
 last_client=kicad
 [general]
@@ -264,6 +264,17 @@ Clearance=0.6
 TrackWidth=0.6
 ViaDiameter=0.8
 ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=c
+Clearance=0.4
+TrackWidth=0.8
+ViaDiameter=1
+ViaDrill=0.8
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
