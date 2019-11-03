@@ -1103,6 +1103,7 @@ Wire Wire Line
 	1450 4750 1450 4950
 Wire Wire Line
 	1450 5100 1450 4950
+<<<<<<< HEAD
 Connection ~ 2400 4950
 Wire Wire Line
 	2800 4950 2400 4950
@@ -1365,4 +1366,284 @@ Wire Wire Line
 Connection ~ 7750 5200
 Wire Wire Line
 	7750 5200 7800 5200
+=======
+Wire Wire Line
+	1450 4950 2400 4950
+Wire Wire Line
+	2400 5350 2400 4950
+Wire Wire Line
+	2500 6200 2500 5950
+Wire Wire Line
+	1450 6550 2300 6550
+Wire Wire Line
+	2300 5950 2300 6550
+Text Label 1500 6850 0    50   ~ 0
+GP5(PIN3PIC)
+Wire Wire Line
+	1500 7050 1500 6850
+Wire Wire Line
+	1550 7050 1500 7050
+$Comp
+L Device:R R8
+U 1 1 5DC3CFD3
+P 1700 7050
+F 0 "R8" V 1800 7100 50  0000 C CNN
+F 1 "5.6k" V 1700 7050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1630 7050 50  0001 C CNN
+F 3 "~" H 1700 7050 50  0001 C CNN
+	1    1700 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC337 Q2
+U 1 1 5DC0B137
+P 2700 7050
+F 0 "Q2" H 2891 7096 50  0000 L CNN
+F 1 "BC337" H 2891 7005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2900 6975 50  0001 L CIN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 2700 7050 50  0001 L CNN
+	1    2700 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5950 2800 6550
+Wire Wire Line
+	1450 6550 1450 5900
+$Comp
+L power:GND #PWR0106
+U 1 1 5E30D11B
+P 2500 6200
+F 0 "#PWR0106" H 2500 5950 50  0001 C CNN
+F 1 "GND" H 2600 6100 50  0000 C CNN
+F 2 "" H 2500 6200 50  0001 C CNN
+F 3 "" H 2500 6200 50  0001 C CNN
+	1    2500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5D8D189B
+P 1450 5750
+F 0 "R9" H 1350 5650 50  0000 C CNN
+F 1 "100" H 1334 5750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1380 5750 50  0001 C CNN
+F 3 "~" H 1450 5750 50  0001 C CNN
+	1    1450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D8D5D97
+P 1450 5250
+F 0 "C4" H 1250 5300 50  0000 L CNN
+F 1 "104" H 1200 5200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1488 5100 50  0001 C CNN
+F 3 "~" H 1450 5250 50  0001 C CNN
+	1    1450 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 5400 1450 5600
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 5D8C4916
+P 1450 4550
+F 0 "J3" V 1300 4550 50  0000 C CNN
+F 1 "MotorT2" V 1400 4750 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 1450 4550 50  0001 C CNN
+F 3 "~" H 1450 4550 50  0001 C CNN
+	1    1450 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4004 D9
+U 1 1 5DBD6543
+P 3400 5650
+F 0 "D9" V 3200 5550 50  0000 C CNN
+F 1 "1N4004" V 3300 5500 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3400 5475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3400 5650 50  0001 C CNN
+	1    3400 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 6550 3400 5800
+Wire Wire Line
+	3400 6550 2800 6550
+Wire Wire Line
+	1850 7050 2500 7050
+$Comp
+L power:GND #PWR0105
+U 1 1 5E61D7A4
+P 2800 7450
+F 0 "#PWR0105" H 2800 7200 50  0001 C CNN
+F 1 "GND" H 2805 7277 50  0000 C CNN
+F 2 "" H 2800 7450 50  0001 C CNN
+F 3 "" H 2800 7450 50  0001 C CNN
+	1    2800 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 6850 2800 6550
+Connection ~ 2800 6550
+Wire Wire Line
+	2800 5350 2800 4950
+Wire Wire Line
+	2800 4950 3400 4950
+Wire Wire Line
+	3400 5500 3400 4950
+Wire Notes Line style solid
+	2400 4450 2400 4250
+Wire Notes Line style solid
+	2400 4450 4250 4450
+Text Notes 2450 4400 0    79   Italic 16
+CONMUTACIÓN DE DIRECCIÓN
+Wire Notes Line style solid
+	4250 4450 4250 4250
+Wire Notes Line style solid
+	2400 4250 4250 4250
+Text Notes 8000 850  0    79   Italic 16
+ACTIVADO Y SENSOR DE CORRIENTE
+Wire Notes Line style solid
+	7950 900  7950 700 
+Wire Notes Line style solid
+	7950 900  10150 900 
+Wire Notes Line style solid
+	10150 700  10150 900 
+Wire Notes Line style solid
+	7950 700  10150 700 
+Text Notes 7450 4150 0    79   Italic 16
+REGULADOR DE 5V\n
+Wire Wire Line
+	1000 6550 1450 6550
+Wire Wire Line
+	1000 4650 1000 6550
+$Comp
+L Sensor_Current:ACS714xLCTR-30A U3
+U 1 1 5D8BBACD
+P 9500 2400
+F 0 "U3" H 9500 2981 50  0000 C CNN
+F 1 "ACS714T-30A" H 9950 2750 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9600 2050 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS714-Datasheet.ashx?la=en" H 9500 2400 50  0001 C CNN
+	1    9500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5150 7600 5200
+Wire Wire Line
+	7600 4900 7600 5200
+Wire Wire Line
+	5600 2500 5600 2400
+Wire Wire Line
+	4800 1650 4950 1650
+Wire Wire Line
+	4950 1050 5100 1050
+Connection ~ 4950 1050
+Wire Wire Line
+	4950 1700 4950 1650
+Connection ~ 4950 1650
+Wire Wire Line
+	4950 1650 5100 1650
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 5DB43828
+P 900 850
+F 0 "J1" V 950 700 50  0000 L CNN
+F 1 "PULS1" V 850 500 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 900 850 50  0001 C CNN
+F 3 "~" H 900 850 50  0001 C CNN
+	1    900  850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:SANYOU_SRD_Form_C K2
+U 1 1 5DCE8715
+P 4600 5650
+F 0 "K2" H 4550 6000 50  0000 C CNN
+F 1 "FRS10CS10-12V" H 4300 6150 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 5050 5600 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 4600 5650 50  0001 C CNN
+	1    4600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5950 4800 6500
+Wire Wire Line
+	4400 6550 4400 5950
+Connection ~ 4400 6550
+$Comp
+L Regulator_Linear:L78L05_TO92 U2
+U 1 1 5DD3ED76
+P 8100 5200
+F 0 "U2" H 8100 5442 50  0000 C CNN
+F 1 "L78L05_TO92" H 8100 5351 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8100 5425 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 8100 5150 50  0001 C CNN
+	1    8100 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 5500 8100 5900
+Text Label 1000 4650 2    50   ~ 0
+Relay2y3_NA
+Text Label 5650 4650 2    50   ~ 0
+Relay2y3_NA
+Connection ~ 5650 4950
+Wire Wire Line
+	5650 4650 5650 4950
+Wire Wire Line
+	9250 1500 9250 1450
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DFE1D32
+P 7750 4850
+F 0 "#FLG0101" H 7750 4925 50  0001 C CNN
+F 1 "PWR_FLAG" H 8000 4900 50  0000 C CNN
+F 2 "" H 7750 4850 50  0001 C CNN
+F 3 "~" H 7750 4850 50  0001 C CNN
+	1    7750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2200 8600 2200
+Wire Wire Line
+	7750 4850 7750 5200
+Wire Wire Line
+	7600 5200 7750 5200
+Connection ~ 7750 5200
+Wire Wire Line
+	7750 5200 7800 5200
+Wire Wire Line
+	3400 6550 3800 6550
+Connection ~ 3400 6550
+Connection ~ 3800 6550
+$Comp
+L Relay:SANYOU_SRD_Form_C K3
+U 1 1 5E2FD7C8
+P 2600 5650
+F 0 "K3" H 2650 5300 50  0000 C CNN
+F 1 "FRS10CS10-12V" H 2900 5150 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 3050 5600 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2600 5650 50  0001 C CNN
+	1    2600 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5DD20DF5
+P 8600 1900
+F 0 "#PWR?" H 8600 1750 50  0001 C CNN
+F 1 "+12V" H 8600 2050 50  0000 C CNN
+F 2 "" H 8600 1900 50  0001 C CNN
+F 3 "" H 8600 1900 50  0001 C CNN
+	1    8600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1900 8600 2200
+Connection ~ 8600 2200
+Wire Wire Line
+	8600 2200 9100 2200
+>>>>>>> 34df1d3a3639059ca7bb6b5454430548cad69779
 $EndSCHEMATC

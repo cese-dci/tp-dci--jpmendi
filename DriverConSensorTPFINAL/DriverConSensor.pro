@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 update=mar 29 oct 2019 14:45:28 -03
+=======
+update=sáb 02 nov 2019 22:04:49 -03
+>>>>>>> 34df1d3a3639059ca7bb6b5454430548cad69779
 version=1
 last_client=kicad
 [general]
@@ -39,6 +43,7 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.8
+<<<<<<< HEAD
 TrackWidth2=0.8
 TrackWidth3=1
 TrackWidth4=1.2
@@ -50,6 +55,22 @@ ViaDiameter2=1.6
 ViaDrill2=0.8
 ViaDiameter3=2
 ViaDrill3=0.9
+=======
+TrackWidth2=0.6
+TrackWidth3=0.8
+TrackWidth4=1
+TrackWidth5=1.2
+TrackWidth6=2
+TrackWidth7=3
+ViaDiameter1=1.6
+ViaDrill1=0.8
+ViaDiameter2=0.6
+ViaDrill2=0.5
+ViaDiameter3=1.6
+ViaDrill3=0.8
+ViaDiameter4=2
+ViaDrill4=0.9
+>>>>>>> 34df1d3a3639059ca7bb6b5454430548cad69779
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -255,3 +276,28 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+<<<<<<< HEAD
+=======
+[pcbnew/Netclasses/1]
+Name=A
+Clearance=0.6
+TrackWidth=0.6
+ViaDiameter=0.8
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=c
+Clearance=0.4
+TrackWidth=0.8
+ViaDiameter=1
+ViaDrill=0.8
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+>>>>>>> 34df1d3a3639059ca7bb6b5454430548cad69779
