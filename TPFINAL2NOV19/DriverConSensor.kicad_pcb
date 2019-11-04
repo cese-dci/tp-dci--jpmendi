@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 12)
     (tracks 371)
     (zones 0)
     (modules 53)
@@ -2569,6 +2569,9 @@
     )
   )
 
+  (gr_text "Me FALTA CORREGIR ACA QUE EL\n RELLENO DE COBRE ME INVADIO ESTA ZONA" (at 53.625 99.25) (layer B.Cu) (tstamp 5DC0B54D)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_text "Los Capacitores C6, C3 y C9 fueron modificados sus huellas\n para facilitar el diseño ya que en la implemetación se colocarán\n las patas en esas medidas, siendo esto posible por la\n flexibilidad de las mismas" (at 199.725 76.825) (layer B.Cu) (tstamp 5DBEB1B8)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
