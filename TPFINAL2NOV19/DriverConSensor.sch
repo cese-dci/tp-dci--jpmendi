@@ -295,7 +295,7 @@ Wire Wire Line
 Connection ~ 10800 3700
 Wire Wire Line
 	10800 3700 10800 3800
-Text Label 8900 3250 2    50   ~ 0
+Text Label 8900 1600 2    50   ~ 0
 Relay2y3_NA
 Wire Wire Line
 	9700 4500 9950 4500
@@ -606,12 +606,6 @@ Wire Notes Line
 	6750 1200 7500 1200
 Text Notes 6750 1150 0    50   ~ 0
 Relay de encendido\n
-Wire Wire Line
-	8150 2200 8150 2800
-Wire Wire Line
-	8150 2800 7450 2800
-Wire Wire Line
-	8900 2600 8900 3250
 Wire Wire Line
 	4750 2600 4750 3000
 Wire Wire Line
@@ -1342,8 +1336,6 @@ F 3 "~" H 7750 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 2200 8600 2200
-Wire Wire Line
 	7750 4850 7750 5200
 Wire Wire Line
 	7600 5200 7750 5200
@@ -1366,19 +1358,27 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2600 5650 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0102
 U 1 1 5DD20DF5
-P 8600 1900
-F 0 "#PWR?" H 8600 1750 50  0001 C CNN
-F 1 "+12V" H 8600 2050 50  0000 C CNN
-F 2 "" H 8600 1900 50  0001 C CNN
-F 3 "" H 8600 1900 50  0001 C CNN
-	1    8600 1900
+P 8300 2500
+F 0 "#PWR0102" H 8300 2350 50  0001 C CNN
+F 1 "+12V" H 8300 2650 50  0000 C CNN
+F 2 "" H 8300 2500 50  0001 C CNN
+F 3 "" H 8300 2500 50  0001 C CNN
+	1    8300 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 1900 8600 2200
-Connection ~ 8600 2200
+	8300 2500 8300 2800
 Wire Wire Line
-	8600 2200 9100 2200
+	8900 2800 8900 2600
+Wire Wire Line
+	7450 2800 8300 2800
+Wire Wire Line
+	9100 2200 8900 2200
+Wire Wire Line
+	8900 2200 8900 1600
+Connection ~ 8300 2800
+Wire Wire Line
+	8300 2800 8900 2800
 $EndSCHEMATC
