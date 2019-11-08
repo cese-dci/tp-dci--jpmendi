@@ -327,6 +327,7 @@ F 0 "U1" H 4250 3100 50  0000 C CNN
 F 1 "PIC12F675-IP" H 4450 3000 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 4550 3150 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf" H 3950 2500 50  0001 C CNN
+F 4 "PIC12F675-I/P-ND" H 3950 2500 50  0001 C CNN "CDigikey"
 	1    3950 2500
 	1    0    0    -1  
 $EndComp
