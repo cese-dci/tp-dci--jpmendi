@@ -1,4 +1,4 @@
-16287101675589262
+16309125817003563
 1-1721150-5
 TE_1-1721150-5
 
@@ -72897,3 +72897,101 @@ varistor SIOV
 0
 2
 2
+footprints
+CP_Radial_D5.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+footprints
+D_A-405_P10.16mm_Horizontal
+Diode, A-405 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf
+Diode A-405 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+footprints
+ESP32-WROOM-32
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
+0
+39
+39
+footprints
+Fiducial_1mm_Dia_2mm_Outer
+Circular Fiducial, 1mm bare copper top; 2mm keepout (Level A)
+marker
+0
+1
+1
+footprints
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+footprints
+MountingHole_2.2mm_M2
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+0
+0
+footprints
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+footprints
+PinSocket_1x06_P2.54mm_Vertical
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+footprints
+R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+footprints
+Relay_SPDT_Omron-G5LE-1
+Omron Relay SPDT, http://www.omron.com/ecb/products/pdf/en-g5le.pdf
+Omron Relay SPDT
+0
+5
+5
+footprints
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+footprints
+TO-92_Inline
+TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+footprints
+TerminalBlock_bornier-2_P5.08mm
+simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+2
+2
+footprints
+USB_Micro-B_GCT_USB3076-30-A
+GCT Micro USB https://gct.co/files/drawings/usb3076.pdf
+Micro-USB SMD Typ-B GCT
+0
+11
+6

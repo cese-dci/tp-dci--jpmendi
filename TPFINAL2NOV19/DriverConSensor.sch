@@ -908,17 +908,6 @@ Wire Wire Line
 	6850 2300 6600 2300
 Text Notes 6750 3300 0    50   ~ 0
 Activa todo el dispositivo, \npermitiendo alimentar \nlas proximas  etapas\n con los 12v
-$Comp
-L Relay:SANYOU_SRD_Form_C K1
-U 1 1 5E2FB020
-P 7150 2500
-F 0 "K1" V 6550 2500 50  0000 C CNN
-F 1 "Switch de Encendido" V 6650 2550 50  0000 C CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 7600 2450 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7150 2500 50  0001 C CNN
-	1    7150 2500
-	0    1    1    0   
-$EndComp
 Text Notes 3750 3700 0    50   ~ 0
 El Pic por un lado mueve el motor hacia \nun lado u hacia el otro según las entradas\nen pulsador 1 o pulsador 2, y segun el \nsensor de corriente lo frena enviando\nlas señales correspondiente a las \nbases de los transistores.\n
 Wire Wire Line
@@ -1292,7 +1281,7 @@ U 1 1 5DCE8715
 P 4600 5650
 F 0 "K2" H 4550 6000 50  0000 C CNN
 F 1 "FRS10CS10-12V" H 4300 6150 50  0000 C CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 5050 5600 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 5050 5600 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 4600 5650 50  0001 C CNN
 	1    4600 5650
 	1    0    0    -1  
@@ -1352,7 +1341,7 @@ U 1 1 5E2FD7C8
 P 2600 5650
 F 0 "K3" H 2650 5300 50  0000 C CNN
 F 1 "FRS10CS10-12V" H 2900 5150 50  0000 C CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 3050 5600 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3050 5600 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 2600 5650 50  0001 C CNN
 	1    2600 5650
 	-1   0    0    1   
@@ -1381,4 +1370,15 @@ Wire Wire Line
 Connection ~ 8300 2800
 Wire Wire Line
 	8300 2800 8900 2800
+$Comp
+L Relay:SANYOU_SRD_Form_C K1
+U 1 1 5E2FB020
+P 7150 2500
+F 0 "K1" V 6550 2500 50  0000 C CNN
+F 1 "Switch de Encendido" V 6650 2550 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 7600 2450 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7150 2500 50  0001 C CNN
+	1    7150 2500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
