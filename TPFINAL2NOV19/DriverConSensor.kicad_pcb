@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 30)
+    (drawings 31)
     (tracks 377)
     (zones 0)
     (modules 53)
@@ -77,7 +77,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFDFF7F)
     (pcbplotparams
-      (layerselection 0x31170_ffffffff)
+      (layerselection 0x11060_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -2556,8 +2556,11 @@
     )
   )
 
-  (gr_text "Las pistas que estan marcadas con máscara antisoldante \nquedan libres para ser reforzadas con estaño" (at 233.39 76.15) (layer F.CrtYd)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "Grillas: 1 mm, 0,5 mm , 0,10 mm\nMargen: 0.3 mm\nPista: 0.6 mm, 0.8mm, 1mm, 2 mm, 3mm\nDist. a borde: 0.40 mm\nTerminacion: Estaño Plomo (Sn/Pb)" (at 203.17 90.74) (layer F.CrtYd)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text "Las pistas que estan marcadas con máscara antisoldante \nquedan libres para ser reforzadas con estaño" (at 203.61 75.79) (layer F.CrtYd)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 139.2 77.575) (end 135.8 77.625) (layer B.Mask) (width 3) (tstamp 5DC5C574))
   (gr_line (start 135.775 77.55) (end 133.85 75.7) (layer B.Mask) (width 3) (tstamp 5DC5C574))
@@ -2584,7 +2587,7 @@
   (gr_text "Industria Argentina" (at 174 127.65) (layer F.SilkS)
     (effects (font (size 1.8 1.8) (thickness 0.25)))
   )
-  (gr_text "El pad GND1 y GND2 es para colocar un cable en dichos \nlugares para reforzar la union de ambas masas, que se \nrealiza en el relleno de cobre por un lugar estrecho" (at 200.25 63.775) (layer F.CrtYd)
+  (gr_text "El pad GND1 y GND2 es para colocar un cable en dichos \nlugares para reforzar la union de ambas masas, que se \nrealiza en el relleno de cobre por un lugar estrecho" (at 203.17 64.35) (layer F.CrtYd)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_circle (center 157 121.6) (end 157.2 120.8) (layer B.SilkS) (width 0.12))
@@ -2997,7 +3000,7 @@
   (segment (start 126.480001 84.764999) (end 127.850001 86.134999) (width 1) (layer B.Cu) (net 31))
   (segment (start 126.480001 82.92001) (end 126.480001 84.764999) (width 1) (layer B.Cu) (net 31))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5DC5D120) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5DC5D2F9) (hatch edge 0.508)
     (connect_pads (clearance 0.4))
     (min_thickness 0.25)
     (fill yes (arc_segments 32) (thermal_gap 0.5) (thermal_bridge_width 0.5))
