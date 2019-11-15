@@ -15,8 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	6300 2700 6300 1750
-Wire Wire Line
 	7750 1850 7750 1750
 Connection ~ 7750 1850
 Wire Wire Line
@@ -862,21 +860,6 @@ Connection ~ 7600 5200
 Wire Wire Line
 	7600 5200 7600 5450
 $Comp
-L power:+12V #PWR0101
-U 1 1 5D96731E
-P 7200 5050
-F 0 "#PWR0101" H 7200 4900 50  0001 C CNN
-F 1 "+12V" H 7200 5200 50  0000 C CNN
-F 2 "" H 7200 5050 50  0001 C CNN
-F 3 "" H 7200 5050 50  0001 C CNN
-	1    7200 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 5050 7200 5200
-Wire Wire Line
-	7200 5200 7600 5200
-$Comp
 L power:GND #PWR020
 U 1 1 5D98E2ED
 P 9400 4650
@@ -933,7 +916,7 @@ F 3 "~" H 6000 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 5050 7400 0    47   ~ 0
-Si ambos Relay están en GND (Normal Cerrado) \nestán desactivados los bornes del motor.\n En cuanto se activa uno (12V) el otro \npermanece desactivado(GND) por lo tanto \nel motor gira en una dirección y vicecersa \npara cambiar de dirección.
+Si ambos Relay están en GND (Normal Cerrado) \nestán desactivados los bornes del motor.\n En cuanto se activa uno (12V) el otro \npermanece desactivado(GND) por lo tanto \nla activacion de cada uno depende del PIN \n2 y 3 respectivamente del PIC\nel motor gira en una dirección y vicecersa \npara cambiar de dirección.
 Text Notes 1550 7350 0    39   ~ 0
 El código activa o \ndesactiva los \nrelay 
 Text Notes 3500 7350 0    39   ~ 0
@@ -1350,27 +1333,20 @@ $EndComp
 $Comp
 L power:+12V #PWR0102
 U 1 1 5DD20DF5
-P 8300 2500
-F 0 "#PWR0102" H 8300 2350 50  0001 C CNN
-F 1 "+12V" H 8300 2650 50  0000 C CNN
-F 2 "" H 8300 2500 50  0001 C CNN
-F 3 "" H 8300 2500 50  0001 C CNN
-	1    8300 2500
+P 6100 2150
+F 0 "#PWR0102" H 6100 2000 50  0001 C CNN
+F 1 "+12V" H 6100 2300 50  0000 C CNN
+F 2 "" H 6100 2150 50  0001 C CNN
+F 3 "" H 6100 2150 50  0001 C CNN
+	1    6100 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 2500 8300 2800
-Wire Wire Line
 	8900 2800 8900 2600
-Wire Wire Line
-	7450 2800 8300 2800
 Wire Wire Line
 	9100 2200 8900 2200
 Wire Wire Line
 	8900 2200 8900 1600
-Connection ~ 8300 2800
-Wire Wire Line
-	8300 2800 8900 2800
 $Comp
 L Relay:SANYOU_SRD_Form_C K1
 U 1 1 5E2FB020
@@ -1382,4 +1358,13 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7150 2500 50  0001
 	1    7150 2500
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	7450 2800 8900 2800
+Wire Wire Line
+	6300 2700 6300 1750
+Wire Wire Line
+	6300 2700 6100 2700
+Wire Wire Line
+	6100 2700 6100 2150
+Connection ~ 6300 2700
 $EndSCHEMATC
